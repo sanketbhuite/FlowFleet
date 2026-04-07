@@ -1,0 +1,123 @@
+.auth-wrapper {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.auth-wrapper {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 420px;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  background: #fff;
+}
+
+.auth-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.auth-link {
+  cursor: pointer;
+  color: #0d6efd;
+}
+
+.auth-link:hover {
+  text-decoration: underline;
+}
+.password-toggle {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: #0d6efd;
+  user-select: none;
+}
+
+.role-badge {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  border: 1px solid #dee2e6;
+}
+
+.role-badge.active {
+  background-color: #0d6efd;
+  color: #fff;
+  border-color: #0d6efd;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 420px;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  background: #fff;
+}
+
+.auth-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.auth-link {
+  cursor: pointer;
+  color: #0d6efd;
+}
+
+.auth-link:hover {
+  text-decoration: underline;
+}
+.password-toggle {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: #0d6efd;
+  user-select: none;
+}
+
+.role-badge {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  border: 1px solid #dee2e6;
+}
+
+.role-badge.active {
+  background-color: #0d6efd;
+  color: #fff;
+  border-color: #0d6efd;
+}
+.language-top {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.language-top select {
+  padding: 5px 8px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  background: white;
+}

@@ -1,0 +1,62 @@
+backend/
+│── manage.py
+│── backend/
+│   ├── settings.py
+│   ├── urls.py
+│   ├── asgi.py
+│   └── wsgi.py
+│
+│── users/
+│   ├── admin.py
+│   ├── models.py
+│   ├── serializers.py
+│   ├── views.py
+│   └── urls.py
+│
+│── fleet/
+|   |-- admin.py
+|   |-- apps.py
+│   ├── models.py
+│   ├── serializers.py
+│   ├── views.py
+│   └── urls.py
+│
+│── trips/
+│   ├── admin.py
+│   ├── models.py
+│   ├── serializers.py
+│   ├── views.py
+│   └── urls.py
+│
+│── tracking/
+│   ├── admin.py
+│   ├── serializers.py
+│   ├── models.py
+│   ├── views.py
+│   └── urls.py
+|
+│── reports/
+│   ├── views.py
+│   └── urls.py
+
+
+frontend/
+│── src/
+│   ├── api/
+│   │   └── axios.js
+│   │
+│   ├── pages/
+│   │   ├── Login.js
+│   │   ├── Register.js
+│   │   ├── OwnerDashboard.js
+│   │   ├── DriverDashboard.js
+│   │   ├── TrackTruck.js
+│   │
+│   ├── components/
+│   │   ├── Navbar.js
+│   │   ├── TruckForm.js
+│   │   ├── ExpenseForm.js
+│   │   └── MapView.js
+│   │
+│   ├── App.js
+│   └── index.js
